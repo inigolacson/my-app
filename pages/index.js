@@ -21,8 +21,8 @@ export default function Home() {
 
     const animate = () => {
       if (light) {
-        light.style.transform = `translate3d(${mouseX}px, ${mouseY}px, 0) translate(-50%, -50%)`;
-
+        light.style.left = `${mouseX}px`;
+        light.style.top = `${mouseY}px`;
       }
       requestAnimationFrame(animate);
     };
