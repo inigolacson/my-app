@@ -1,0 +1,46 @@
+@use '../variables.scss' as *;
+
+.icon {
+    font-size: 1.8rem;
+    color: white;
+}
+
+.buttonContainer {
+    flex-direction: row;
+    display: flex;
+    gap: .9rem;
+    align-items: flex-start;
+}
+
+.button {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.resumeButton {
+    margin-top: -.5rem;
+    align-items: center;
+    flex-direction: row;
+    padding: 0.5rem 1rem;
+    display: flex;
+    width: 7rem;
+    border: 1px solid white;
+    background-color: transparent;
+    height: 2rem;
+    gap: .5rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.resumeIcon {
+    color: white;
+    font-size: .9rem;
+}
+
+.resumeText {
+    color: white;
+    font-size: .8rem;
+    text-decoration: none;
+}

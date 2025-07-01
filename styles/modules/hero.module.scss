@@ -1,0 +1,62 @@
+@use '../variables.scss' as *;
+
+.heroContainer {
+    width: 100%;
+    margin-left: 27%;
+    margin-top: 10%;
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 1rem;
+    align-self: flex-end;
+
+    img {
+        border-radius:250px;
+        width: 25%;
+        height: auto;
+        object-fit: cover;
+        max-width: 200px;
+        min-width: 150px;
+    }
+}
+
+.nameBanner {
+    color: white;
+    font-family: var(--font-geist-sans);
+    font-size: 1.4rem;
+}
+
+.title {
+    color: rgba(255, 255, 255, 0.747);
+    font-family: var(--font-geist-sans);
+    font-size: 1.2rem;
+    margin-top: -.6rem;
+}
+
+.address {
+    color: rgba(255, 255, 255, 0.747);
+    font-family: var(--font-geist-sans);
+    font-size: 1rem;
+    margin-top: -.7rem;
+}
+
+.moto {
+    color: white;
+    font-family: var(--font-geist-sans);
+    font-size: 1rem;
+    margin-top: -.7rem;
+    font-style: normal;
+}
+
+.icon {
+    color: #ff595e;
+    font-size: .8rem;
+
+}
+// .resumeButton{
+
+// }
+
+// .socialIcons{
+
+// }
