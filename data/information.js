@@ -18,7 +18,6 @@ const links = {
     facebook : 'https://www.facebook.com/InigoLacsonT/',
     instagram: 'https://www.instagram.com/inigolacson/',
     resume: '',
-
 }
 
 export default info;
