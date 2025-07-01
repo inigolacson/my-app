@@ -1,11 +1,37 @@
 import styles from '@styles/modules/index.module.scss';
 import hero from '@styles/modules/hero.module.scss';
 import buttons from '@styles/modules/socialButtons.module.scss';
+import cursor from '@styles/modules/cursorLight.module.scss';
 import { HiLocationMarker } from 'react-icons/hi';
 import { FaGithub, FaLinkedin, FaFacebookSquare, FaInstagram, FaEnvelope, FaFileAlt} from 'react-icons/fa';
 import Image from 'next/image';
+import { useEffect } from 'react';
 
 export default function Home() {
+  useEffect(() => {
+    const light = document.getElementById('cursor-light');
+    let mouseX = 0;
+    let mouseY = 0;
+
+    const handleMouseMove = (e) => {
+      mouseX = e.clientX;
+      mouseY = e.clientY;
+    };
+
+    const animate = () => {
+      if (light) {
+        light.style.left =`${mouseX}px`;
+        light.style.top = `${mouseY}px`;
+      }
+      requestAnimationFrame(animate);
+    };
+
+    window.addEventListener('mousemove', handleMouseMove);
+    animate();
+    
+    return () => window.removeEventListener('mousemove', handleMouseMove);
+  }, []);
+
   return (
     <main>
       <div className={styles.container}>
@@ -53,6 +79,7 @@ export default function Home() {
           This is 65%
         </div> 
       </div>
+      <div className={cursor.light} id="cursor-light"> </div>
     </main>
   );
 } 

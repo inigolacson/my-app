@@ -1,6 +1,7 @@
 @use '../variables.scss' as *;
 
 .heroContainer {
+    min-width: 300px;
     width: 100%;
     margin-left: 27%;
     margin-top: 10%;
@@ -51,8 +52,9 @@
 .icon {
     color: #ff595e;
     font-size: .8rem;
-
 }
+
+
 // .resumeButton{
 
 // }
