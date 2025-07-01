@@ -2,8 +2,6 @@
 
 .light {
     position: fixed;
-    top: 0;
-    left: 0;
     width: 100px;
     height: 100px;
     pointer-events: none;
@@ -12,5 +10,5 @@
     transform: translate(-50%, -50%);
     mix-blend-mode: soft-light;
     z-index: 9999;
-    transition: top 0.01s linear, left 0.01s linear;
+    transition: none;
 }
