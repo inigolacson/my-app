@@ -18,7 +18,7 @@ export default function Home() {
       mouseY = e.clientY;
     };
 
-    const animat = () => {
+    const animate = () => {
       if (light) {
         light.style.left =`${mouseX}px`;
         light.style.top = `${mouseY}px`;
