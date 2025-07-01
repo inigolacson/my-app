@@ -1,0 +1,16 @@
+@use '../variables.scss' as *;
+
+.light {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    pointer-events: none;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.432) 0%, rgba(255, 255, 255, 0) 60%);
+    transform: translate(-50%, -50%);
+    mix-blend-mode: soft-light;
+    z-index: 9999;
+    transition: top 0.01s linear, left 0.01s linear;
+}
