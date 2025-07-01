@@ -2,10 +2,11 @@ import styles from '@styles/modules/index.module.scss';
 import hero from '@styles/modules/hero.module.scss';
 import buttons from '@styles/modules/socialButtons.module.scss';
 import cursor from '@styles/modules/cursorLight.module.scss';
+import  info, { links } from '@data/information.js';
 import { HiLocationMarker } from 'react-icons/hi';
 import { FaGithub, FaLinkedin, FaFacebookSquare, FaInstagram, FaEnvelope, FaFileAlt} from 'react-icons/fa';
 import Image from 'next/image';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
 export default function Home() {
   useEffect(() => {
@@ -43,33 +44,23 @@ export default function Home() {
             width={800}
             height={800} 
             />
-            <h1 className={hero.nameBanner}>Inigo Manuel Antonio T. Lacson</h1>
-            <p className={hero.title}>Full Stack Developer</p>
-            <address className={hero.address}><HiLocationMarker className={hero.icon}/> Binagonan Rizal, Philippines 1940</address>
-            <p className={hero.moto}>Insert Motto</p>
+            <h1 className={hero.nameBanner}>{info.name}</h1>
+            <p className={hero.title}>{info.title}</p>
+            <address className={hero.address}><HiLocationMarker className={hero.icon}/>{info.address}</address>
+            <p className={hero.moto}>{info.motto}</p>
             <div className={buttons.buttonContainer}>
-              <a href="https://github.com/inigolacson"
-              target="_blank" 
-              rel="noopener norefferer" 
+              <a href={links.github} target="_blank" rel="noopener norefferer" 
               className={buttons.button}><FaGithub className={buttons.icon}/></a>
-              <a href="https://www.linkedin.com/in/i%C3%B1igo-lacson-150351310/"
-              target="_blank" 
-              rel="noopener norefferer"
+              <a href={links.linkedin} target="_blank" rel="noopener norefferer"
               className={buttons.button}><FaLinkedin className={buttons.icon}/></a>
-              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=inigolacson01@gmail.com&su=Hello%20from%20your%20portfolio&body=I%20saw%20your%20site%20and%20wanted%20to%20reach%20out!"
-              target="_blank"
-              rel="noopener norefferer"
+              <a href={links.gmail} target="_blank" rel="noopener norefferer"
               className={buttons.button}><FaEnvelope className={buttons.icon}/></a>
-              <a href="https://www.facebook.com/InigoLacsonT/"
-              target="_blank"
-              rel="noopener norefferer"
+              <a href= {links.facebook} target="_blank" rel="noopener norefferer"
               className={buttons.button}><FaFacebookSquare className={buttons.icon}/></a>
-              <a href="https://www.instagram.com/inigolacson/"
-              target="_blank"
-              rel="noopener norefferer"
+              <a href={links.instagram} target="_blank" rel="noopener norefferer"
               className={buttons.button}><FaInstagram className={buttons.icon}/></a>
             </div>
-            <a href="" download className={buttons.resumeButton}>
+            <a href={links.resume} download className={buttons.resumeButton}>
               <FaFileAlt className={buttons.resumeIcon}></FaFileAlt>
               <span className={buttons.resumeText}>Resume</span>
             </a>
