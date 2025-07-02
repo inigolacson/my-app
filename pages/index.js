@@ -1,7 +1,8 @@
 import styles from '@styles/modules/index.module.scss';
-import hero from '@styles/modules/hero.module.scss';
-import buttons from '@styles/modules/socialButtons.module.scss';
+import hero from '@styles/modules/left/hero.module.scss';
+import buttons from '@styles/modules/left/socialButtons.module.scss';
 import cursor from '@styles/modules/cursorLight.module.scss';
+import about from '@styles/modules/right/aboutme.module.scss'
 import  info, { links } from '@data/information.js';
 import { HiLocationMarker } from 'react-icons/hi';
 import { FaGithub, FaLinkedin, FaFacebookSquare, FaInstagram, FaEnvelope, FaFileAlt} from 'react-icons/fa';
@@ -67,7 +68,9 @@ export default function Home() {
           </div>                      
         </div>
         <div className={styles.right}>
-          This is 65%
+          <div className={about.aboutContainer}>
+            <h1>About me</h1>
+          </div>
         </div> 
       </div>
       <div className={cursor.light} id="cursor-light"> </div>
