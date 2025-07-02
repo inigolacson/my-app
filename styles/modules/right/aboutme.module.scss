@@ -1,23 +1,26 @@
-<<<<<<< HEAD
 @use '../../variables.scss' as *;
-
 
 .aboutContainer{
     margin-top: 5.9%;
     width: 100%;
-    max-width: 50rem;
-    padding: 0 1rem;
+    max-width: 60rem;
+    padding: 0 8rem;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media (max-width: 768px) {
+    max-width: 500px;
+    padding-left: 10%;
+    padding-right: 10%;
+    };
 }
 
 .aboutText {
     margin-top: .7rem;
     text-align: justify;
     line-height: 1.6;
-    
+
     @media (max-width: 768px) {
         text-align: center;
     };
 }
-=======
-@use '../../variables.scss' as *;
->>>>>>> f7d1faae1f2ed768282c4de933b8ec3cb6de4936
