@@ -5,10 +5,11 @@ const titles = [
 ];
 
 const info = {
-    name: 'Iñigo Manuel Antonio T. Lacson',
+    name: 'Iñigo Manuel Antonio Lacson',
     address: ' Binagonan Rizal, Philippines 1940',
     title: 'Frontend Developer',
     motto: 'insert motto',
+    aboutme: "I'm a graduating Information Technology student at the Polytechnic University of the Philippines with a strong interest in game development, UI/UX design, and frontend development. I enjoy creating interactive, user-focused experiences through code and design.",
 };
 
 const links = {

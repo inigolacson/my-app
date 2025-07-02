@@ -70,6 +70,7 @@ export default function Home() {
         <div className={styles.right}>
           <div className={about.aboutContainer}>
             <h1>About me</h1>
+            <p className={about.aboutText}>{info.aboutme}</p>
           </div>
         </div> 
       </div>

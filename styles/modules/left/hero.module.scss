@@ -1,15 +1,17 @@
 @use '../../variables.scss' as *;
 
 .heroContainer {
-    min-width: 300px;
+    min-width: 400px;
     width: 100%;
-    margin-left: 35%;
+    padding-left: 40%;
     margin-top: 10%;
     overflow: hidden;
     display: grid;
     grid-template-rows: auto auto;
     gap: 1rem;
     align-self: flex-end;
+    align-items: center;
+    justify-items: left;
 
     img {
         border-radius:250px;
@@ -19,12 +21,26 @@
         max-width: 200px;
         min-width: 150px;
     }
+
+    @media (max-width: 768px) {
+        margin: 0 auto;
+        align-items: center;
+        padding: 0 1rem;
+        justify-content: center;
+        flex-direction: column;
+        display: flex;
+        margin-top: 2rem;
+        text-align: center;
+        max-width: 500px;
+        width: 100%;
+    }
 }
 
 .nameBanner {
     color: white;
     font-family: var(--font-geist-sans);
     font-size: 1.4rem;
+    
 }
 
 .title {
@@ -32,6 +48,7 @@
     font-family: var(--font-geist-sans);
     font-size: 1.2rem;
     margin-top: -.6rem;
+    max-width: 200px;
 }
 
 .address {
@@ -54,11 +71,3 @@
     font-size: .8rem;
 }
 
-
-// .resumeButton{
-
-// }
-
-// .socialIcons{
-
-// }
