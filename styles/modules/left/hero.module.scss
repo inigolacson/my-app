@@ -19,6 +19,16 @@
         max-width: 200px;
         min-width: 150px;
     }
+
+    @media (max-width: 768px) {
+        margin-left: auto;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        display: flex;
+        margin-top: 2rem;
+        text-align: center;
+    }
 }
 
 .nameBanner {

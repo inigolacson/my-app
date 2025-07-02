@@ -2,7 +2,18 @@
 
 
 .aboutContainer{
-    margin-top: 5%;
+    margin-top: 5.9%;
     width: 100%;
+    max-width: 50rem;
+    padding: 0 1rem;
+}
 
+.aboutText {
+    margin-top: .7rem;
+    text-align: justify;
+    line-height: 1.6;
+    
+    @media (max-width: 768px) {
+        text-align: center;
+    };
 }
