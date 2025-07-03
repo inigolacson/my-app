@@ -4,10 +4,8 @@ import buttons from '@styles/modules/left/socialButtons.module.scss';
 import cursor from '@styles/modules/cursorLight.module.scss';
 import about from '@styles/modules/right/aboutme.module.scss'
 import skills from '@styles/modules/right/skills.module.scss';
-import  info, { links, titles } from '@data/information.js';
-import { HiLocationMarker } from 'react-icons/hi';
-import { FaGithub, FaLinkedin, FaFacebookSquare, FaInstagram, FaEnvelope, FaFileAlt} from 'react-icons/fa';
-import { siJira } from 'react-icons/si'
+import {info, links} from '@data/information';
+import * as icons from "@data/icons";
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
 
@@ -49,19 +47,19 @@ export default function Home() {
             />
             <h1 className={hero.nameBanner}>{info.name}</h1>
             <p className={hero.title}>{info.title}</p>
-            <address className={hero.address}><HiLocationMarker className={hero.icon}/>{info.address}</address>
+            <address className={hero.address}><icons.HiLocationMarker className={hero.icon}/>{info.address}</address>
             <p className={hero.moto}>{info.motto}</p>
             <div className={buttons.buttonContainer}>
               <a href={links.github} target="_blank" rel="noopener norefferer"
-              className={buttons.button}><FaGithub className={buttons.icon}/></a>
+              className={buttons.button}><icons.FaGithub className={buttons.icon}/></a>
               <a href={links.linkedin} target="_blank" rel="noopener norefferer"
-              className={buttons.button}><FaLinkedin className={buttons.icon}/></a>
+              className={buttons.button}><icons.FaLinkedin className={buttons.icon}/></a>
               <a href={links.gmail} target="_blank" rel="noopener norefferer"
-              className={buttons.button}><FaEnvelope className={buttons.icon}/></a>
+              className={buttons.button}><icons.FaEnvelope className={buttons.icon}/></a>
               <a href= {links.facebook} target="_blank" rel="noopener norefferer"
-              className={buttons.button}><FaFacebookSquare className={buttons.icon}/></a>
+              className={buttons.button}><icons.FaFacebookSquare className={buttons.icon}/></a>
               <a href={links.instagram} target="_blank" rel="noopener norefferer"
-              className={buttons.button}><FaInstagram className={buttons.icon}/></a>
+              className={buttons.button}><icons.FaInstagram className={buttons.icon}/></a>
             </div>
             <a href={links.resume} download className={buttons.resumeButton}>
               <FaFileAlt className={buttons.resumeIcon}></FaFileAlt>
