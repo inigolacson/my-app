@@ -3,6 +3,7 @@ import hero from '@styles/modules/left/hero.module.scss';
 import buttons from '@styles/modules/left/socialButtons.module.scss';
 import cursor from '@styles/modules/cursorLight.module.scss';
 import about from '@styles/modules/right/aboutme.module.scss'
+import skills from '@styles/modules/right/skills.module.scss';
 import  info, { links } from '@data/information.js';
 import { HiLocationMarker } from 'react-icons/hi';
 import { FaGithub, FaLinkedin, FaFacebookSquare, FaInstagram, FaEnvelope, FaFileAlt} from 'react-icons/fa';
@@ -38,7 +39,7 @@ export default function Home() {
     <main>
       <div className={styles.container}>
         <div className={styles.left}>
-          <div className={hero.heroContainer}>
+          <section className={hero.heroContainer}>
             <Image 
             src="/photos/hero.jpg"
             alt="Hero"
@@ -65,12 +66,15 @@ export default function Home() {
               <FaFileAlt className={buttons.resumeIcon}></FaFileAlt>
               <span className={buttons.resumeText}>Resume</span>
             </a>
-          </div>                      
+          </section>                      
         </div>
         <div className={styles.right}>
-          <div className={about.aboutContainer}>
+          <section className={about.aboutContainer}>
             <h1>About me</h1>
             <p className={about.aboutText}>{info.aboutme}</p>
+          </section>
+          <div>
+            
           </div>
         </div> 
       </div>
