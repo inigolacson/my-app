@@ -1,6 +1,6 @@
 import skills from '@styles/modules/right/skills.module.scss';
 import styles from '@styles/modules/index.module.scss';
-import { SkillLanguages, SkillFrameworks, SkillDatabase, SkillDevOps } from './skillsComponent';
+import { SkillLanguages, SkillFrameworks, SkillDatabase, SkillDevOps, SkillDesignPrototyping, SkillProjectManagement } from './skillsComponent';
 
 
 export function SkillSection() {
@@ -20,13 +20,10 @@ export function SkillSection() {
                 <SkillDevOps />
             </section>
             <section className={skills.iconContainer}>
-
+                <SkillProjectManagement />
             </section>
             <section className={skills.iconContainer}>
-                
-            </section>
-            <section className={skills.iconContainer}>
-                
+                <SkillDesignPrototyping />
             </section>
         </section>
     )
