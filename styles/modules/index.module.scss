@@ -37,6 +37,7 @@
     font-family: var(--font-geist-sans);
     position: relative;
     min-width: 400px;
+    max-width: 60rem;
 
     @media (max-width: 768px) {
         margin: 0 auto;
