@@ -4,7 +4,7 @@ import buttons from '@styles/modules/left/socialButtons.module.scss';
 import cursor from '@styles/modules/cursorLight.module.scss';
 import about from '@styles/modules/right/aboutme.module.scss'
 import skills from '@styles/modules/right/skills.module.scss';
-import {info}, links from '@data/information';
+import  info, { links } from '@data/information.js';
 import * as icons from "@data/icons";
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
@@ -62,7 +62,7 @@ export default function Home() {
               className={buttons.button}><icons.FaInstagram className={buttons.icon}/></a>
             </div>
             <a href={links.resume} download className={buttons.resumeButton}>
-              <FaFileAlt className={buttons.resumeIcon}></FaFileAlt>
+              <icons.FaFileAlt className={buttons.resumeIcon}></icons.FaFileAlt>
               <span className={buttons.resumeText}>Resume</span>
             </a>
           </section>                      
