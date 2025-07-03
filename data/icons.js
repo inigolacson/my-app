@@ -17,14 +17,15 @@ import {
     SiFlutter,
     SiPython,
     SiJavascript,
+    SiTypescript,
     SiTailwindcss,
+    SiDart,
     SiSass,
     SiMysql,
-    SiMssqlserver,
     SiGit,
+    SiGodotengine,
     SiGithub,
     SiJira,
-    SiMSTeam,
     SiAdobexd,
     SiFigma,
     SiCanva,
@@ -45,14 +46,15 @@ export {
     SiFlutter,
     SiPython,
     SiJavascript,
+    SiTypescript,
     SiTailwindcss,
+    SiDart,
     SiSass,
     SiMysql,
-    SiMssqlserver,
     SiGit,
+    SiGodotengine,
     SiGithub,
     SiJira,
-    SiMicrosoftteams,
     SiAdobexd,
     SiFigma,
     SiCanva,
@@ -62,4 +64,7 @@ export {
 
      //miro
      //mssqlserver
-     //
+     //microsoftteams
+     //saphana
+     //reactnative
+     //nativewind
