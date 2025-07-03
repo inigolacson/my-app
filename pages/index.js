@@ -4,7 +4,7 @@ import buttons from '@styles/modules/left/socialButtons.module.scss';
 import cursor from '@styles/modules/cursorLight.module.scss';
 import about from '@styles/modules/right/aboutme.module.scss'
 import skills from '@styles/modules/right/skills.module.scss';
-import {info, links} from '@data/information';
+import {info}, links from '@data/information';
 import * as icons from "@data/icons";
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
