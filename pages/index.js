@@ -3,7 +3,7 @@ import hero from '@styles/modules/left/hero.module.scss';
 import buttons from '@styles/modules/left/socialButtons.module.scss';
 import cursor from '@styles/modules/cursorLight.module.scss';
 import about from '@styles/modules/right/aboutme.module.scss'
-import skills from '@styles/modules/right/skills.module.scss';
+import { SkillSection } from '@component/skill/skills.js'
 import  info, { links } from '@data/information.js';
 import * as icons from "@data/icons";
 import Image from 'next/image';
@@ -73,9 +73,8 @@ export default function Home() {
               <h1 className={styles.title}>About me</h1>
               <p className={about.aboutText}>{info.aboutme}</p>
             </section>
-            <section className={skills.skillsContainer}>
-              <h1 className={styles.title}>Skills</h1>
-            </section>
+            <div className={styles.divider}></div>
+            <SkillSection />
           </div>
         </div> 
       </div>
