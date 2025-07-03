@@ -50,7 +50,7 @@ export default function Home() {
             <address className={hero.address}><HiLocationMarker className={hero.icon}/>{info.address}</address>
             <p className={hero.moto}>{info.motto}</p>
             <div className={buttons.buttonContainer}>
-              <a href={links.github} target="_blank" rel="noopener norefferer" 
+              <a href={links.github} target="_blank" rel="noopener norefferer"
               className={buttons.button}><FaGithub className={buttons.icon}/></a>
               <a href={links.linkedin} target="_blank" rel="noopener norefferer"
               className={buttons.button}><FaLinkedin className={buttons.icon}/></a>
