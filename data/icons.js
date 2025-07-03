@@ -20,6 +20,7 @@ import {
     SiTypescript,
     SiTailwindcss,
     SiDart,
+    SiDotnet,
     SiSass,
     SiMysql,
     SiGit,
@@ -30,7 +31,8 @@ import {
     SiFigma,
     SiCanva,
     SiAdobephotoshop,
-    SiAdobeillustrator
+    SiAdobeillustrator,
+    SiNextdotjs
     
     } from 'react-icons/si'
 
@@ -48,6 +50,7 @@ export {
     SiJavascript,
     SiTypescript,
     SiTailwindcss,
+    SiDotnet,
     SiDart,
     SiSass,
     SiMysql,
@@ -59,7 +62,8 @@ export {
     SiFigma,
     SiCanva,
     SiAdobephotoshop,
-    SiAdobeillustrator
+    SiAdobeillustrator,
+    SiNextdotjs
      }
 
      //miro
