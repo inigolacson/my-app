@@ -4,9 +4,10 @@ import buttons from '@styles/modules/left/socialButtons.module.scss';
 import cursor from '@styles/modules/cursorLight.module.scss';
 import about from '@styles/modules/right/aboutme.module.scss'
 import skills from '@styles/modules/right/skills.module.scss';
-import  info, { links } from '@data/information.js';
+import  info, { links, titles } from '@data/information.js';
 import { HiLocationMarker } from 'react-icons/hi';
 import { FaGithub, FaLinkedin, FaFacebookSquare, FaInstagram, FaEnvelope, FaFileAlt} from 'react-icons/fa';
+import { siJira } from 'react-icons/si'
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
 
@@ -69,12 +70,14 @@ export default function Home() {
           </section>                      
         </div>
         <div className={styles.right}>
-          <section className={about.aboutContainer}>
-            <h1>About me</h1>
-            <p className={about.aboutText}>{info.aboutme}</p>
-          </section>
-          <div>
-            
+          <div className={styles.rightModules}>
+            <section className={about.aboutContainer}>
+              <h1 className={styles.title}>About me</h1>
+              <p className={about.aboutText}>{info.aboutme}</p>
+            </section>
+            <section className={skills.skillsContainer}>
+              <h1 className={styles.title}>Skills</h1>
+            </section>
           </div>
         </div> 
       </div>
