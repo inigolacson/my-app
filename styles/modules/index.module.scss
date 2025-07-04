@@ -63,6 +63,7 @@
 }
 
 .title {
+    font-size: 1.5rem;
     letter-spacing: .1rem;
 }
 
@@ -74,5 +75,9 @@
     width: 100%;
     height: 1px;
     background-color: rgb(85, 85, 85);
-    margin-top: .7rem;
+    margin-top: .5rem;
+}
+
+.containerGap{
+    margin-top: 1.3rem;;
 }

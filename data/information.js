@@ -25,19 +25,19 @@ const links = {
 const cookInfo = [
     {
         title: 'alon website',
-        description: 'Sample',
+        description: 'a front-end implementation of an electric bike e-commerce site based on my own UI/UX design.',
     },
     {
-        title: 'running diary pp',
-        description: 'Sample',
+        title: 'running diary app',
+        description: 'a full-stack running diary app to log and track personal runs.',
     },
     {
         title: 'youtube channel',
-        description: 'Sample',
+        description: 'a collection of head-level, emotionally narrated videos that explore human introspection and storytelling.',
     },
     {
         title: 'salary meter app',
-        description: 'Sample',
+        description: 'an app that calculates how many days of work are needed to afford specific items based on monthly wage input.',
     }
 ]
 

@@ -70,14 +70,11 @@ export default function Home() {
         </div>
         <div className={styles.right}>
           <div className={styles.rightModules}>
-            <section className={about.aboutContainer}>
-              <h1 className={styles.title}>what's currently cooking <span>🍳</span></h1>
-              <div className={styles.line}></div>
+              <section className={styles.wholeContainer}>
                 <CookSection/>
-              {/* <p className={about.aboutText}>{info.aboutme}</p> */}
-            </section>
+              </section>
             <div className={styles.divider}></div>
-            <SkillSection />
+              <SkillSection />
           </div>
         </div> 
       </div>

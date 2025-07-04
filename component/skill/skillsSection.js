@@ -5,26 +5,28 @@ import { SkillLanguages, SkillFrameworks, SkillDatabase, SkillDevOps, SkillDesig
 
 export function SkillSection() {
     return (
-        <section className={skills.skillsContainer}>
+        <section>
             <h1 className={styles.title}>technologies <span>🤖</span></h1>
             <div className={styles.line}></div>
-            <section className={skills.iconContainer}>
-                <SkillLanguages />
-            </section>
-            <section className={skills.iconContainer}>
-                <SkillFrameworks />
-            </section>
-            <section className={skills.iconContainer}>
-               <SkillDatabase />
-            </section>
-            <section className={skills.iconContainer}>
-                <SkillDevOps />
-            </section>
-            <section className={skills.iconContainer}>
-                <SkillProjectManagement />
-            </section>
-            <section className={skills.iconContainer}>
-                <SkillDesignPrototyping />
+            <section className={styles.wholeContainer}>
+                <section className={skills.iconContainer}>
+                    <SkillLanguages />
+                </section>
+                <section className={skills.iconContainer}>
+                    <SkillFrameworks />
+                </section>
+                <section className={skills.iconContainer}>
+                <SkillDatabase />
+                </section>
+                <section className={skills.iconContainer}>
+                    <SkillDevOps />
+                </section>
+                <section className={skills.iconContainer}>
+                    <SkillProjectManagement />
+                </section>
+                <section className={skills.iconContainer}>
+                    <SkillDesignPrototyping />
+                </section>
             </section>
         </section>
     )
