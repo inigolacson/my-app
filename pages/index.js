@@ -70,7 +70,7 @@ export default function Home() {
         </div>
         <div className={styles.right}>
           <div className={styles.rightModules}>
-              <section className={styles.wholeContainer}>
+              <section className={styles.containerGap}>
                 <CookSection/>
               </section>
             <div className={styles.divider}></div>

@@ -1,0 +1,26 @@
+@use '../../variables.scss' as *;
+
+.educationContainer {
+
+}
+
+.educationTitle {
+    font-size: 1.12rem;
+    font-weight: 500;
+    letter-spacing: .05rem;
+}
+
+.educationCourse {
+    margin-top: .1rem;
+    font-size: 1rem;
+    font-weight: 250;
+    font-size: 1rem;
+    letter-spacing: .05rem;
+    color: rgb(224, 224, 224)
+}
+
+.educationYear {
+    font-size: 1.12rem;
+    font-style: italic;
+    font-weight: 200;
+}
