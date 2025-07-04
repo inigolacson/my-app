@@ -5,7 +5,7 @@ import { experienceInfo } from '@data/information'
 export function ExperienceSection () {
     return (
         <section>
-            <h1 className={styles.title}>experience <span>🎓</span></h1>
+            <h1 className={styles.title}>experience <span>🧠</span></h1>
             <div className={styles.line}></div>
             {experienceInfo.map((expe, index) => (
                 <ExperienceComponent 
