@@ -69,7 +69,7 @@ const educationInfo = [
     },
     {
         name: 'rizal national science high school',
-        course: 'science, technology, rngineering & mathematics',
+        course: 'science, technology, engineering & mathematics',
         date: '2019 - 2021'
     }
 ]
