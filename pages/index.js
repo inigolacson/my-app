@@ -11,6 +11,7 @@ import Image from 'next/image';
 import { useEffect, useState } from 'react';
 import { EducationSection } from '@component/education/educationSection';
 import { ExperienceSection } from '@component/experience/experiencesSection';
+import { ProjectSection } from '@component/project/projectSection';
 
 export default function Home() {
   useEffect(() => {
@@ -81,6 +82,8 @@ export default function Home() {
               <EducationSection/>
             <div className={styles.divider}></div>
               <ExperienceSection/>
+            <div className={styles.divider}></div>
+              <ProjectSection/>
           </div>
         </div> 
       </div>

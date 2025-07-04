@@ -1,1 +1,28 @@
 @use '../../variables.scss' as *;
+
+.projectContainer {
+    margin-top: .7rem;
+    width: 100%;
+}
+
+.projectTitle {
+    font-size: 1.12rem;
+    font-weight: 500;
+    letter-spacing: .05rem;
+
+}
+
+.projectsDescription {
+    margin-top: .1rem;
+    font-size: 1rem;
+    font-weight: 250;
+    font-size: 1rem;
+    letter-spacing: -.05rem;
+    color: rgb(224, 224, 224);
+}
+
+.projectDate {
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 200;
+}

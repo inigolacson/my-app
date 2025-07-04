@@ -52,13 +52,15 @@ const experienceInfo = [
 const projectInfo = [
     {
         title: 'alon mock up design',
+        date: 'april 2025 - may 2025',  
         description: 'applied fundamental ui/ux design principles and best practices to independently design and develop the complete user interface for a conceptual electric e-bike platform in Adobe xd.',
-        date: 'april 2025 - may 2025'
+        
     },
     {
         title: 'yapak: an adventure game that promotes environmental awareness',
+        date: 'june 2024 - may 2025',
         description: 'led the development of a game using godot engine and gdscript. implemented game mechanics, user interface, and core gameplay systems.',
-        date: 'june 2024 - may 2025'
+        
     },
 ]
 
