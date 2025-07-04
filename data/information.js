@@ -75,4 +75,4 @@ const educationInfo = [
 ]
 
 export default info;
-export { titles , links, cookInfo };
+export { titles , links, cookInfo, educationInfo };

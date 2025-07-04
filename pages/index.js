@@ -9,6 +9,7 @@ import  info, { links } from '@data/information.js';
 import * as icons from "@data/icons";
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
+import { EducationSection } from '@component/education/educationSection';
 
 export default function Home() {
   useEffect(() => {
@@ -75,6 +76,8 @@ export default function Home() {
               </section>
             <div className={styles.divider}></div>
               <SkillSection />
+            <div className={styles.divider}></div>
+              <EducationSection/>
           </div>
         </div> 
       </div>

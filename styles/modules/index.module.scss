@@ -19,7 +19,7 @@
     padding: 1rem;
     width: 40%;
     font-family: var(--font-geist-sans);
-    position: relative;
+    position: fixed;
     min-width: 300px;
 
     @media (max-width: 768px) {
@@ -27,12 +27,14 @@
         text-align: center;
         width: 100%;
         max-width: 500px;  
+        position: relative;
     }
 }
 
 
 .right {
     padding: 1rem;
+    margin-left: 40%;
     width: 60%;
     font-family: var(--font-geist-sans);
     position: relative;
@@ -44,6 +46,7 @@
         text-align: center;
         width: 100%;
         max-width: 500px;
+        
         
     }
 }
