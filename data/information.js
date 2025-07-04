@@ -9,8 +9,7 @@ const info = {
     address: ' Binagonan Rizal, Philippines 1940',
     title: 'Frontend Developer',
     motto: 'insert motto',
-    aboutme: "I'm a graduating Information Technology student at the Polytechnic University of the Philippines with a strong interest in game development, UI/UX design, and frontend development. I enjoy creating interactive, user-focused experiences through code and design.",
-};
+}
 
 const links = {
     github : 'https://github.com/inigolacson',
@@ -38,6 +37,40 @@ const cookInfo = [
     {
         title: 'salary meter app',
         description: 'an app that calculates how many days of work are needed to afford specific items based on monthly wage input.',
+    }
+]
+
+const experienceInfo = [
+    {
+        company: 'Zynnapse Corporation',
+        description: 'completed a comprehensive internship as a front end intern, gaining fundamental skills in modern front-end development and ui/ux design.',
+        date: 'february 2025 - may 2025',
+    },
+]
+
+const projectInfo = [
+    {
+        title: 'alon mock up design',
+        description: 'applied fundamental ui/ux design principles and best practices to independently design and develop the complete user interface for a conceptual electric e-bike platform in Adobe xd.',
+        date: 'april 2025 - may 2025'
+    },
+    {
+        title: 'yapak: an adventure game that promotes environmental awareness',
+        description: 'led the development of a game using godot engine and gdscript. implemented game mechanics, user interface, and core gameplay systems.',
+        date: 'june 2024 - may 2025'
+    },
+]
+
+const educationInfo = [
+    {
+        name: 'polytechnic university of the philippines',
+        course: 'bachelor of science in information technology',
+        date: '2021 - present'
+    },
+    {
+        name: 'rizal national science high school',
+        course: 'science, technology, rngineering & mathematics',
+        date: '2019 - 2021'
     }
 ]
 
