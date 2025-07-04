@@ -3,6 +3,8 @@
 .experienceContainer {
     width: 100%;
     margin-top: .7rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 .experienceCompany {
@@ -24,4 +26,5 @@
     font-size: 1rem;
     font-style: italic;
     font-weight: 200;
+    display: inline;
 }

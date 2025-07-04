@@ -3,6 +3,9 @@
 .educationContainer {
     margin-top: .7rem;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
 }
 
 .educationTitle {
@@ -24,4 +27,5 @@
     font-size: 1rem;
     font-style: italic;
     font-weight: 200;
+    display: inline;
 }

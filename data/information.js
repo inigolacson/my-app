@@ -57,9 +57,9 @@ const projectInfo = [
         
     },
     {
-        title: 'yapak: an adventure game that promotes environmental awareness',
+        title: 'yapak',
         date: 'june 2024 - may 2025',
-        description: 'led the development of a game using godot engine and gdscript. implemented game mechanics, user interface, and core gameplay systems.',
+        description: 'a game that promotes environmental awareness. led the development of a game using godot engine and gdscript. implemented game mechanics, user interface, and core gameplay systems.',
         
     },
 ]
