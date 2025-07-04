@@ -21,5 +21,25 @@ const links = {
     resume: 'https://drive.google.com/uc?export=download&id=1d492yrn5a45J_UCBhW08N1pbuStCQKp9',
 }
 
+
+const cookInfo = [
+    {
+        title: 'alon website',
+        description: 'Sample',
+    },
+    {
+        title: 'running diary pp',
+        description: 'Sample',
+    },
+    {
+        title: 'youtube channel',
+        description: 'Sample',
+    },
+    {
+        title: 'salary meter app',
+        description: 'Sample',
+    }
+]
+
 export default info;
-export { titles , links };
+export { titles , links, cookInfo };

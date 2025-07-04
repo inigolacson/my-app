@@ -6,7 +6,8 @@ import { SkillLanguages, SkillFrameworks, SkillDatabase, SkillDevOps, SkillDesig
 export function SkillSection() {
     return (
         <section className={skills.skillsContainer}>
-            <h1 className={styles.title}>Skills</h1>
+            <h1 className={styles.title}>technologies <span>🤖</span></h1>
+            <div className={styles.line}></div>
             <section className={skills.iconContainer}>
                 <SkillLanguages />
             </section>
