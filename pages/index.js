@@ -9,6 +9,8 @@ import  info, { links } from '@data/information.js';
 import * as icons from "@data/icons";
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
+import { EducationSection } from '@component/education/educationSection';
+import { ExperienceSection } from '@component/experience/experiencesSection';
 
 export default function Home() {
   useEffect(() => {
@@ -70,11 +72,15 @@ export default function Home() {
         </div>
         <div className={styles.right}>
           <div className={styles.rightModules}>
-              <section className={styles.wholeContainer}>
+              <section className={styles.containerGap}>
                 <CookSection/>
               </section>
             <div className={styles.divider}></div>
               <SkillSection />
+            <div className={styles.divider}></div>
+              <EducationSection/>
+            <div className={styles.divider}></div>
+              <ExperienceSection/>
           </div>
         </div> 
       </div>

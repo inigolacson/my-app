@@ -1,6 +1,7 @@
 @use '../../variables.scss' as *;
 
 .heroContainer {
+    position: sticky;
     min-width: 400px;
     width: 100%;
     padding-left: 40%;

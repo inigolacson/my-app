@@ -46,6 +46,7 @@ const experienceInfo = [
         description: 'completed a comprehensive internship as a front end intern, gaining fundamental skills in modern front-end development and ui/ux design.',
         date: 'february 2025 - may 2025',
     },
+    
 ]
 
 const projectInfo = [
@@ -69,10 +70,10 @@ const educationInfo = [
     },
     {
         name: 'rizal national science high school',
-        course: 'science, technology, rngineering & mathematics',
+        course: 'science, technology, engineering & mathematics',
         date: '2019 - 2021'
     }
 ]
 
 export default info;
-export { titles , links, cookInfo };
+export { titles , links, cookInfo, educationInfo, experienceInfo, projectInfo };

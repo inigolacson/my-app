@@ -1,1 +1,27 @@
 @use '../../variables.scss' as *; 
+
+.experienceContainer {
+    width: 100%;
+    margin-top: .7rem;
+}
+
+.experienceCompany {
+    font-size: 1.12rem;
+    font-weight: 500;
+    letter-spacing: .05rem;
+}
+
+.experienceDescription{
+margin-top: .1rem;
+font-size: 1rem;
+font-weight: 250;
+font-size: 1rem;
+letter-spacing: 0.05rem;
+color: rgb(224, 224, 224);
+}
+
+.experienceDate{
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 200;
+}
