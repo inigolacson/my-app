@@ -10,6 +10,7 @@ import * as icons from "@data/icons";
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
 import { EducationSection } from '@component/education/educationSection';
+import { ExperienceSection } from '@component/experience/experiencesSection';
 
 export default function Home() {
   useEffect(() => {
@@ -78,6 +79,8 @@ export default function Home() {
               <SkillSection />
             <div className={styles.divider}></div>
               <EducationSection/>
+            <div className={styles.divider}></div>
+              <ExperienceSection/>
           </div>
         </div> 
       </div>
