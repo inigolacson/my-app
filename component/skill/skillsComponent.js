@@ -1,6 +1,7 @@
 import skills from '@styles/modules/right/skills.module.scss';
 import * as icons from "@data/icons";
 
+
 export function SkillLanguages() {
     return (
         <>
@@ -34,8 +35,8 @@ export function SkillDatabase() {
         <>
             <p className={skills.subheader}>Database</p>
             <icons.SiMysql className={skills.skillIcons} title='MySQL'></icons.SiMysql>
-            <icons.SiReact className={skills.skillIcons} title='MSSQL Server'></icons.SiReact>
-            <icons.SiReact className={skills.skillIcons} title='SAP HANA'></icons.SiReact>
+            <p className={skills.texthehe}>MS SQL Server</p>
+            <p className={skills.texthehe}>SAP hana</p>
         </>
     )
 }
@@ -56,8 +57,7 @@ export function SkillProjectManagement() {
         <>
             <p className={skills.subheader}>Project Management</p>
             <icons.SiJira className={skills.skillIcons} title='Jira'></icons.SiJira>
-            <icons.SiReact className={skills.skillIcons} title='Miro'></icons.SiReact>
-            <icons.SiReact className={skills.skillIcons} title='Microsoft Teams'></icons.SiReact>
+            <p className={skills.texthehe}>Miro</p>
         </>
     )
 }
