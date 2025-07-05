@@ -4,7 +4,6 @@ import {
     FaFacebookSquare, 
     FaInstagram, 
     FaEnvelope, 
-    FaFileAlt,
     } from 'react-icons/fa';
 
 import { 
@@ -41,7 +40,6 @@ export {
     FaFacebookSquare, 
     FaInstagram, 
     FaEnvelope, 
-    FaFileAlt, 
     HiLocationMarker, 
     SiReact,
     SiFlutter,
