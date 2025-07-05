@@ -57,10 +57,11 @@ export default function Home() {
         <div className={styles.left}>
           <section className={hero.heroContainer}>
             <Image 
-            src="/photos/hero.jpg"
+            src="/photos/hero.webp"
             alt="Hero"
             width={800}
             height={800} 
+            priority
             />
             <h1 className={hero.nameBanner}>{info.name}</h1>
             <TypedTitle/>
