@@ -43,7 +43,7 @@
 
     @media (max-width: 768px) {
         margin: 0 auto;
-        text-align: center;
+        text-align: left;
         width: 100%;
         max-width: 500px;
         
@@ -94,4 +94,8 @@
 .normal {
     text-decoration: none;
     font-style: normal;
+}
+
+.bottomSpace{
+    height: 14rem;
 }

@@ -63,18 +63,20 @@ export default function Home() {
                 <CookSection/>
               </section>
             <div className={styles.divider}></div>
-              <SkillSection />
-            <div className={styles.divider}></div>
-              <EducationSection/>
+              <ProjectSection/>
             <div className={styles.divider}></div>
               <ExperienceSection/>
             <div className={styles.divider}></div>
-              <ProjectSection/>
+              <SkillSection />
+            <div className={styles.divider}></div>
+              <EducationSection/>
           </div>
         </div> 
       </div>
+      
       <div className={cursor.light} id="cursor-light"> </div>
       <SocialSection/>
+      <div className={styles.bottomSpace}></div>
     </main>
   );
 } 
