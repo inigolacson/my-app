@@ -10,6 +10,7 @@ import { ExperienceSection } from '@component/experience/experiencesSection';
 import { ProjectSection } from '@component/project/projectSection';
 import { SocialSection } from '@component/socialbar/socialSection';
 import Image from 'next/image';
+import Head from 'next/head';
 import { ResumeButton } from '@component/resume';
 import { TypedTitle } from '@component/typed';
 
@@ -45,11 +46,10 @@ export default function Home() {
       <title>Iñigo Lacson | Frontend Developer</title>
       <meta name="description" content="Portfolio of Iñigo Lacson — Frontend Developer, UI/UX Designer, and Game Developer" />
 
-      {/* Open Graph */}
       <meta property="og:title" content="Iñigo Lacson | Frontend Developer" />
       <meta property="og:description" content="Explore my work, projects, and skills." />
-      <meta property="og:image" content="https://inigolacson.vercel.app/og-image.jpg" />
-      <meta property="og:url" content="https://inigolacson.vercel.app" />
+      <meta property="og:image" content="https://porfolio-ashen-eight.vercel.app/og-image.jpg" />
+      <meta property="og:url" content="https://porfolio-ashen-eight.vercel.app/" />
       <meta property="og:type" content="website" />
     </Head>
     <main>
