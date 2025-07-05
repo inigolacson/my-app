@@ -1,24 +1,5 @@
 @use '../../variables.scss' as *;
 
-.icon {
-    font-size: 1.8rem;
-    color: white;
-}
-
-.buttonContainer {
-    flex-direction: row;
-    display: flex;
-    gap: .9rem;
-    align-items: flex-start;
-}
-
-.button {
-    background-color: transparent;
-    border: none;
-    padding: 0;
-    cursor: pointer;
-}
-
 .resumeButton {
     margin-top: -.5rem;
     align-items: center;

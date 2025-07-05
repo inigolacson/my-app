@@ -4,7 +4,7 @@
   z-index: 100000;
   height: 4rem;
   border-radius: 1rem;
-  background-color: rgba(0, 0, 0, 0.651);
+  background-color:rgba(0, 0, 0, 0.651);
   position: fixed;
   display: flex;
   bottom: 2rem;
@@ -20,5 +20,10 @@
 .socialIcons{
     color: rgba(255, 255, 255, 0.863);
     font-size: 2rem;
+    cursor: pointer;
 
+    &:hover{
+        transform:scale(1.25);
+        color: white;
+    }
 }
