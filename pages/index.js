@@ -1,19 +1,16 @@
 import styles from '@styles/modules/index.module.scss';
 import hero from '@styles/modules/left/hero.module.scss';
-import buttons from '@styles/modules/left/socialButtons.module.scss';
 import cursor from '@styles/modules/cursorLight.module.scss';
-import about from '@styles/modules/right/aboutme.module.scss'
 import { SkillSection } from '@component/skill/skillsSection.js'
 import { CookSection } from '@component/cooking/cookSection';
 import  info, { links } from '@data/information.js';
-import * as icons from "@data/icons";
-import Image from 'next/image';
 import { useEffect, useState } from 'react';
 import { EducationSection } from '@component/education/educationSection';
 import { ExperienceSection } from '@component/experience/experiencesSection';
 import { ProjectSection } from '@component/project/projectSection';
-import { SocialRoot } from '@component/socialbar/socialRoot';
 import { SocialSection } from '@component/socialbar/socialSection';
+import Image from 'next/image';
+
 
 export default function Home() {
   useEffect(() => {
