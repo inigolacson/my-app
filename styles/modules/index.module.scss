@@ -99,5 +99,9 @@
 
 .bottomSpace{
     height: 14rem;
+
+    @media (max-width: 768px) {
+        height: 2rem;
+    };
 }
 
