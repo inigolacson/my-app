@@ -1,7 +1,6 @@
 import styles from '@styles/modules/index.module.scss';
 import hero from '@styles/modules/left/hero.module.scss';
 import cursor from '@styles/modules/cursorLight.module.scss';
-import resume from '@styles/modules/resume.module.scss';
 import { SkillSection } from '@component/skill/skillsSection.js'
 import { CookSection } from '@component/cooking/cookSection';
 import  info, { links } from '@data/information.js';
