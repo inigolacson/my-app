@@ -40,6 +40,18 @@ export default function Home() {
   }, []);
 
   return (
+    <>
+    <Head>
+      <title>Iñigo Lacson | Frontend Developer</title>
+      <meta name="description" content="Portfolio of Iñigo Lacson — Frontend Developer, UI/UX Designer, and Game Developer" />
+
+      {/* Open Graph */}
+      <meta property="og:title" content="Iñigo Lacson | Frontend Developer" />
+      <meta property="og:description" content="Explore my work, projects, and skills." />
+      <meta property="og:image" content="https://inigolacson.vercel.app/og-image.jpg" />
+      <meta property="og:url" content="https://inigolacson.vercel.app" />
+      <meta property="og:type" content="website" />
+    </Head>
     <main>
       <div className={styles.container}>
         <div className={styles.left}>
@@ -79,5 +91,6 @@ export default function Home() {
       <SocialSection/>
       <div className={styles.bottomSpace}></div>
     </main>
+    </>
   );
 } 
