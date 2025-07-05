@@ -10,7 +10,7 @@ const info = {
     name: 'Iñigo Manuel Antonio Lacson',
     address: ' Binagonan Rizal, Philippines 1940',
     title: 'Frontend Developer',
-    motto: 'good things are better taken in the less you notice',
+    motto: 'just making apps',
 }
 
 const socialLinks = [
@@ -58,8 +58,8 @@ const cookInfo = [
 
 const experienceInfo = [
     {
-        company: 'Zynnapse Corporation',
-        description: 'completed a comprehensive internship as a front end intern, gaining fundamental skills in modern front-end development and ui/ux design.',
+        company: 'zynnapse corporation',
+        description: 'completed internship as a front end intern, gaining skills in front-end development and ui/ux design.',
         date: 'february 2025 - may 2025',
     },
     
@@ -69,13 +69,13 @@ const projectInfo = [
     {
         title: 'alon mock up design',
         date: 'april 2025 - may 2025',  
-        description: 'applied fundamental ui/ux design principles and best practices to independently design and develop the complete user interface for a conceptual electric e-bike platform in Adobe xd.',
+        description: 'a conceptual electric e-bike platform made with adobe xd.',
         
     },
     {
         title: 'yapak',
         date: 'june 2024 - may 2025',
-        description: 'led the development of a game that promotes environmental awareness   using godot engine and gdscript. implemented game mechanics, user interface, and core gameplay systems.',
+        description: 'a game that promotes environmental awareness, made with godot engine.',
         
     },
 ]
@@ -93,11 +93,9 @@ const educationInfo = [
     }
 ]
 
-const socialInfo = [
-    {
-
-    },
-]
+const emailLink = {
+    link: 'https://drive.google.com/uc?export=download&id=1d492yrn5a45J_UCBhW08N1pbuStCQKp9'
+}
 
 export default info;
-export { titles , cookInfo, educationInfo, experienceInfo, projectInfo, socialLinks };
+export { titles , cookInfo, educationInfo, experienceInfo, projectInfo, socialLinks, emailLink };

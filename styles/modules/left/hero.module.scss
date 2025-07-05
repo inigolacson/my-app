@@ -40,6 +40,7 @@
     color: white;
     font-family: var(--font-geist-sans);
     font-size: 1.4rem;
+    letter-spacing: .05rem;
     
 }
 
@@ -49,6 +50,7 @@
     font-size: 1.2rem;
     margin-top: -.6rem;
     max-width: 200px;
+    letter-spacing: .05rem;
 }
 
 .address {
@@ -56,6 +58,7 @@
     font-family: var(--font-geist-sans);
     font-size: 1rem;
     margin-top: -.7rem;
+    letter-spacing: .02rem;
 }
 
 .moto {
@@ -64,6 +67,8 @@
     font-size: 1rem;
     margin-top: -.7rem;
     font-style: normal;
+    font-weight: 250;
+    letter-spacing: .05rem;
 }
 
 .icon {

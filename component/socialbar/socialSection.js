@@ -1,5 +1,5 @@
 import { socialLinks } from "@data/information";
-import button from "@styles/modules/left/socialButtons.module.scss"
+import button from "@styles/modules/resume.module.scss"
 import social from '@styles/modules/socialbar.module.scss';
 
 export function SocialSection() {
@@ -13,8 +13,7 @@ export function SocialSection() {
                 key={index}
                 href={item.link}
                 target="_blank"
-                rel="noopener noreferrer"
-                className={button.button}>
+                rel="noopener noreferrer">
                 <Icon className={social.socialIcons}/>
                 </a>
                 );

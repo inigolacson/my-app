@@ -1,6 +1,7 @@
 import styles from '@styles/modules/index.module.scss';
 import hero from '@styles/modules/left/hero.module.scss';
 import cursor from '@styles/modules/cursorLight.module.scss';
+import resume from '@styles/modules/resume.module.scss';
 import { SkillSection } from '@component/skill/skillsSection.js'
 import { CookSection } from '@component/cooking/cookSection';
 import  info, { links } from '@data/information.js';
@@ -10,6 +11,7 @@ import { ExperienceSection } from '@component/experience/experiencesSection';
 import { ProjectSection } from '@component/project/projectSection';
 import { SocialSection } from '@component/socialbar/socialSection';
 import Image from 'next/image';
+import { ResumeButton } from '@component/resume';
 
 
 export default function Home() {
@@ -51,7 +53,8 @@ export default function Home() {
             <h1 className={hero.nameBanner}>{info.name}</h1>
             <p className={hero.title}>{info.title}</p>
             <address className={hero.address}><span className={styles.normal}>📍</span>{info.address}</address>
-            <p className={hero.moto}>{info.motto}</p>
+            <p className={hero.moto}><span className={styles.normal}>🤷‍♂️</span> {info.motto}</p>
+               <ResumeButton/>
           </section>                      
         </div>
         <div className={styles.right}>

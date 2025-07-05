@@ -1,8 +1,10 @@
-@use '../../variables.scss' as *;
+@use '../variables.scss' as *;
+
 
 .resumeButton {
-    margin-top: -.5rem;
+    margin-top: .1rem;
     align-items: center;
+    justify-content: center;
     flex-direction: row;
     padding: 0.5rem 1rem;
     display: flex;

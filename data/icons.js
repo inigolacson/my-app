@@ -5,7 +5,6 @@ import {
     FaInstagram, 
     FaEnvelope, 
     FaFileAlt,
-    FaTeams
     } from 'react-icons/fa';
 
 import { 
