@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
  
 export default function MyApp({ Component, pageProps }) {
   return (
-  <main className={`${geistSans.variable} ${geistMono.variable}`}>
+  <main className={`${geistSans.variable} ${geistMono.variable} fade-in`}>
     <Component {...pageProps} />
   </main>
   )
