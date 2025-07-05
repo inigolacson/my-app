@@ -13,6 +13,7 @@ export function TypedTitle() {
                 delaySpeed={1000}
                 loop
                 cursor
+                cursorStyle = '_'
                 />
             </span>
         </section>

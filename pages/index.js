@@ -55,6 +55,7 @@ export default function Home() {
             <address className={hero.address}><span className={styles.normal}>📍</span>{info.address}</address>
             <p className={hero.moto}><span className={styles.normal}>🤷‍♂️</span> {info.motto}</p>
                <ResumeButton/>
+            <p className={hero.rights}>© 2025 @inigolacson — All rights reserved.</p>
           </section>                      
         </div>
         <div className={styles.right}>
