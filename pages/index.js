@@ -11,6 +11,7 @@ import { ProjectSection } from '@component/project/projectSection';
 import { SocialSection } from '@component/socialbar/socialSection';
 import Image from 'next/image';
 import { ResumeButton } from '@component/resume';
+import { TypedTitle } from '@component/typed';
 
 
 export default function Home() {
@@ -50,7 +51,7 @@ export default function Home() {
             height={800} 
             />
             <h1 className={hero.nameBanner}>{info.name}</h1>
-            <p className={hero.title}>{info.title}</p>
+            <TypedTitle/>
             <address className={hero.address}><span className={styles.normal}>📍</span>{info.address}</address>
             <p className={hero.moto}><span className={styles.normal}>🤷‍♂️</span> {info.motto}</p>
                <ResumeButton/>
