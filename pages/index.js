@@ -12,6 +12,8 @@ import { useEffect, useState } from 'react';
 import { EducationSection } from '@component/education/educationSection';
 import { ExperienceSection } from '@component/experience/experiencesSection';
 import { ProjectSection } from '@component/project/projectSection';
+import { SocialRoot } from '@component/socialbar/socialRoot';
+import { SocialSection } from '@component/socialbar/socialSection';
 
 export default function Home() {
   useEffect(() => {
@@ -51,24 +53,8 @@ export default function Home() {
             />
             <h1 className={hero.nameBanner}>{info.name}</h1>
             <p className={hero.title}>{info.title}</p>
-            <address className={hero.address}><icons.HiLocationMarker className={hero.icon}/>{info.address}</address>
+            <address className={hero.address}><span className={styles.normal}>📍</span>{info.address}</address>
             <p className={hero.moto}>{info.motto}</p>
-            <div className={buttons.buttonContainer}>
-              <a href={links.github} target="_blank" rel="noopener norefferer"
-              className={buttons.button}><icons.FaGithub className={buttons.icon}/></a>
-              <a href={links.linkedin} target="_blank" rel="noopener norefferer"
-              className={buttons.button}><icons.FaLinkedin className={buttons.icon}/></a>
-              <a href={links.gmail} target="_blank" rel="noopener norefferer"
-              className={buttons.button}><icons.FaEnvelope className={buttons.icon}/></a>
-              <a href= {links.facebook} target="_blank" rel="noopener norefferer"
-              className={buttons.button}><icons.FaFacebookSquare className={buttons.icon}/></a>
-              <a href={links.instagram} target="_blank" rel="noopener norefferer"
-              className={buttons.button}><icons.FaInstagram className={buttons.icon}/></a>
-            </div>
-            <a href={links.resume} download className={buttons.resumeButton}>
-              <icons.FaFileAlt className={buttons.resumeIcon}></icons.FaFileAlt>
-              <span className={buttons.resumeText}>Resume</span>
-            </a>
           </section>                      
         </div>
         <div className={styles.right}>
@@ -88,6 +74,7 @@ export default function Home() {
         </div> 
       </div>
       <div className={cursor.light} id="cursor-light"> </div>
+      <SocialSection/>
     </main>
   );
 } 

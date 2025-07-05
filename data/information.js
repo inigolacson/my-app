@@ -1,3 +1,5 @@
+import { FaGithub,  FaLinkedin, FaFacebookSquare, FaInstagram, FaEnvelope,} from 'react-icons/fa'
+
 const titles = [
     'Frontend Developer',
     'UI/UX Specialist',
@@ -8,17 +10,31 @@ const info = {
     name: 'Iñigo Manuel Antonio Lacson',
     address: ' Binagonan Rizal, Philippines 1940',
     title: 'Frontend Developer',
-    motto: 'insert motto',
+    motto: 'good things are better taken in the less you notice',
 }
 
-const links = {
-    github : 'https://github.com/inigolacson',
-    linkedin: 'https://www.linkedin.com/in/i%C3%B1igo-lacson-150351310/',
-    gmail: 'https://mail.google.com/mail/?view=cm&fs=1&to=inigolacson01@gmail.com&su=Hello%20from%20your%20portfolio&body=I%20saw%20your%20site%20and%20wanted%20to%20reach%20out!',
-    facebook : 'https://www.facebook.com/InigoLacsonT/',
-    instagram: 'https://www.instagram.com/inigolacson/',
-    resume: 'https://drive.google.com/uc?export=download&id=1d492yrn5a45J_UCBhW08N1pbuStCQKp9',
-}
+const socialLinks = [
+    { 
+        link : 'https://github.com/inigolacson',
+        icon: FaGithub
+    },
+    { 
+        link:'https://www.linkedin.com/in/i%C3%B1igo-lacson-150351310/',
+        icon: FaLinkedin
+    },
+    { 
+        link:'https://mail.google.com/mail/?view=cm&fs=1&to=inigolacson01@gmail.com&su=Hello%20from%20your%20portfolio&body=I%20saw%20your%20site%20and%20wanted%20to%20reach%20out!',
+        icon: FaEnvelope
+    },
+    { 
+        link: 'https://www.facebook.com/InigoLacsonT/',
+        icon:   FaFacebookSquare
+    },
+    { 
+        link:   'https://www.instagram.com/inigolacson/',
+        icon:   FaInstagram
+    },
+]
 
 
 const cookInfo = [
@@ -59,7 +75,7 @@ const projectInfo = [
     {
         title: 'yapak',
         date: 'june 2024 - may 2025',
-        description: 'a game that promotes environmental awareness. led the development of a game using godot engine and gdscript. implemented game mechanics, user interface, and core gameplay systems.',
+        description: 'led the development of a game that promotes environmental awareness   using godot engine and gdscript. implemented game mechanics, user interface, and core gameplay systems.',
         
     },
 ]
@@ -77,5 +93,11 @@ const educationInfo = [
     }
 ]
 
+const socialInfo = [
+    {
+
+    },
+]
+
 export default info;
-export { titles , links, cookInfo, educationInfo, experienceInfo, projectInfo };
+export { titles , cookInfo, educationInfo, experienceInfo, projectInfo, socialLinks };

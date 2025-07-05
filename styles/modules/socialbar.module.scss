@@ -1,0 +1,24 @@
+@use "../variables.scss" as *;
+
+.socialContainer {
+  z-index: 100000;
+  height: 4rem;
+  border-radius: 1rem;
+  background-color: rgba(0, 0, 0, 0.651);
+  position: fixed;
+  display: flex;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0.75rem 1.25rem;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  gap: 1rem
+}
+
+.socialIcons{
+    color: rgba(255, 255, 255, 0.863);
+    font-size: 2rem;
+
+}
