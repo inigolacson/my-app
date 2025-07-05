@@ -1,4 +1,4 @@
-import { FaGithub,  FaLinkedin, FaFacebookSquare, FaInstagram, FaEnvelope,} from 'react-icons/fa'
+import { FaGithub,  FaLinkedin, FaFacebookSquare, FaInstagram, FaEnvelope, FaYoutube} from 'react-icons/fa'
 
 const titles = [
     'Frontend Developer',
@@ -15,7 +15,7 @@ const info = {
 
 const socialLinks = [
     { 
-        link : 'https://github.com/inigolacson',
+        link: 'https://github.com/inigolacson',
         icon: FaGithub
     },
     { 
@@ -28,12 +28,16 @@ const socialLinks = [
     },
     { 
         link: 'https://www.facebook.com/InigoLacsonT/',
-        icon:   FaFacebookSquare
+        icon:  FaFacebookSquare
     },
     { 
-        link:   'https://www.instagram.com/inigolacson/',
-        icon:   FaInstagram
+        link:  'https://www.instagram.com/inigolacson/',
+        icon:  FaInstagram
     },
+    {
+        link: 'https://www.youtube.com/@inigolacson',
+        icon: FaYoutube
+    }
 ]
 
 
