@@ -84,13 +84,14 @@ export default function Home() {
               <SkillSection />
             <div className={styles.divider}></div>
               <EducationSection/>
+            <div className={styles.bottomSpace}></div>
           </div>
         </div> 
       </div>
       
       <div className={cursor.light} id="cursor-light"> </div>
       <SocialSection/>
-      <div className={styles.bottomSpace}></div>
+      
     </main>
     </>
   );
