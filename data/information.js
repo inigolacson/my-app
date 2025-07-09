@@ -57,6 +57,10 @@ const cookInfo = [
     {
         title: 'salary meter app',
         description: 'an app that calculates how many days of work are needed to afford specific items based on monthly wage input.',
+    },
+    {
+        title: 'senna mist stacks calculator',
+        description: 'an app that calculates senna mist stacks from the hit game league of legends'
     }
 ]
 
