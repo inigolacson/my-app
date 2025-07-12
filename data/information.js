@@ -109,7 +109,7 @@ const educationInfo = [
 ]
 
 const emailLink = {
-    link: 'https://drive.google.com/uc?export=download&id=1d492yrn5a45J_UCBhW08N1pbuStCQKp9'
+    link: 'https://drive.google.com/uc?export=download&id=1D1J4GT2GOfT21UPofweNmniNKpM4ol_G'
 }
 
 export default info;
