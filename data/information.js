@@ -84,7 +84,7 @@ const projectInfo = [
         date: 'june 2024 - may 2025',
         description: 'a game that promotes environmental awareness, made with godot engine.',
         icon: FaDownload,
-        link: ''
+        link: 'https://pup-a2ip.itch.io/yapak'
     },
     {
         title: 'senna mist stacks calculator',
