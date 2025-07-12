@@ -2,13 +2,17 @@
 
 .light {
     position: fixed;
-    width: 100px;
-    height: 100px;
+    width: 1200px;
+    height: 1200px;
     pointer-events: none;
     border-radius: 50%;
     background: radial-gradient(circle, rgba(255, 255, 255, 0.432) 0%, rgba(255, 255, 255, 0) 60%);
     transform: translate(-50%, -50%);
     mix-blend-mode: soft-light;
-    z-index: 0;
+    z-index: 1;
     transition: none;
+
+    @media (max-width: 499px) {
+        display: none;
+    }
 }

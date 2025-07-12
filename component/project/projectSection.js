@@ -13,6 +13,8 @@ export function ProjectSection() {
                 title={proj.title}
                 date={proj.date}
                 description={proj.description}
+                icon={proj.icon}
+                link={proj.link}
                 />
             ))}
         </section>

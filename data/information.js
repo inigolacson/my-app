@@ -1,4 +1,5 @@
-import { FaGithub,  FaLinkedin, FaFacebookSquare, FaInstagram, FaEnvelope, FaYoutube} from 'react-icons/fa'
+import { FaGithub,  FaLinkedin, FaFacebookSquare, FaInstagram, FaEnvelope, FaYoutube, FaDownload} from 'react-icons/fa';
+import { SiAdobe } from 'react-icons/si';
 
 const titles = [
     'Frontend Developer',
@@ -57,10 +58,6 @@ const cookInfo = [
     {
         title: 'salary meter app',
         description: 'an app that calculates how many days of work are needed to afford specific items based on monthly wage input.',
-    },
-    {
-        title: 'senna mist stacks calculator',
-        description: 'an app that calculates senna mist stacks from the hit game league of legends'
     }
 ]
 
@@ -78,14 +75,24 @@ const projectInfo = [
         title: 'alon mock up design',
         date: 'april 2025 - may 2025',  
         description: 'a conceptual electric e-bike platform made with adobe xd.',
+        icon: SiAdobe,
+        link: 'https://xd.adobe.com/view/150b8f18-e8dd-4711-99d9-b2a99b3a2248-4058/?fullscreen'
         
     },
     {
         title: 'yapak',
         date: 'june 2024 - may 2025',
         description: 'a game that promotes environmental awareness, made with godot engine.',
-        
+        icon: FaDownload,
+        link: ''
     },
+    {
+        title: 'senna mist stacks calculator',
+        date: 'july 2025',
+        description: 'an app that calculates senna mist stacks from the hit game league of legends',
+        icon: FaGithub,
+        link: 'https://github.com/inigolacson/lol-stacks-calc'
+    }
 ]
 
 const educationInfo = [

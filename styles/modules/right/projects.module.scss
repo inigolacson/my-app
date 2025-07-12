@@ -7,6 +7,12 @@
     justify-content: space-between;
 }
 
+.titleIconContainer {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
 .projectTitle {
     font-size: 1.12rem;
     font-weight: 500;
@@ -28,4 +34,14 @@
     font-style: italic;
     font-weight: 200;
     display: inline;
+}
+
+.projectIcon {
+    font-size: 1.5rem;
+    color: rgb(224, 224, 224);
+    transition: transform 0.3s ease;
+
+    &:hover {
+        transform: scale(1.1);
+    }
 }
