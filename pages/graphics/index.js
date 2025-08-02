@@ -33,6 +33,9 @@ export default function GraphicsSection() {
         what i already cooked <span>🔥</span>
       </h1>
       <p className={graphics.captionNote}>descriptions are a.i generated</p>
+      <p className={graphics.captionNote}>
+        more layouts in archive (cannot be recovered)
+      </p>
       <div className={styles.line}></div>
 
       <div className={graphics.gallery}>

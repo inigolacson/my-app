@@ -164,49 +164,49 @@ const graphicsImages = [
   {
     src: "/photos/design3.webp",
     alt: "Design 1",
-    title: "Creative Design 1",
+    title: "let's goto outbox menu | graphic design",
     description:
       "A digital artwork showcasing a detailed menu board for a food establishment, featuring various dishes, prices, and promotional offers with a clean and organized layout..",
   },
   {
     src: "/photos/design4.webp",
     alt: "Design 2",
-    title: "Creative Design 2",
+    title: "outbox wings menu | graphic design",
     description:
       "A striking and impactful menu design for OUTBOX UNLTD highlighting a variety of food items, particularly chicken, with clear pricing and a visually appealing layout.",
   },
   {
     src: "/photos/design5.webp",
     alt: "Design 3",
-    title: "Creative Design 3",
+    title: "outbox wings menu | graphic design",
     description:
       "A clean and modern promotional material for a food delivery service, featuring food items, contact information, and a clear call to action, designed for effective communication.",
   },
   {
     src: "/photos/design1.webp",
     alt: "Design 4",
-    title: "Creative Design 4",
+    title: "outbox wings promo | graphic design",
     description:
       "A promotional advertisement for OUTBOX UNLTD showcasing delicious-looking chicken wings with a rich sauce, emphasizing the EXPERIENCE CHICKEN WINGS AT ITS FINEST message in a bold and appetizing manner..",
   },
   {
     src: "/photos/design2.webp",
     alt: "Design 5",
-    title: "Creative Design 5",
+    title: "outbox wings promo | graphic design",
     description:
       " A mockup design for Outbox Unltd merchandise, possibly a banner or packaging, featuring their logo and taglines, suggesting brand visibility and product presentation.",
   },
   {
     src: "/photos/design6.png",
     alt: "Design 6",
-    title: "Creative Design 6",
+    title: "lets goto outbox logo | graphic design",
     description:
       "A playful and inviting logo design, LET'S GO TO OUTBOX UNLTD, likely for branding or promotional use, encouraging engagement with the brand.",
   },
   {
     src: "/photos/design7.png",
     alt: "Design 7",
-    title: "Creative Design 7",
+    title: "outbox wings unltd logo | graphic design",
     description:
       "A clear and concise logo mark for OUTBOX UNLTD, ideal for general branding purposes, easily recognizable and versatile for various applications.",
   },
