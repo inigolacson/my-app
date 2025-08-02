@@ -11,11 +11,10 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
- 
 export default function MyApp({ Component, pageProps }) {
   return (
-  <main className={`${geistSans.variable} ${geistMono.variable} fade-in`}>
-    <Component {...pageProps} />
-  </main>
-  )
+    <main className={`${geistSans.variable} ${geistMono.variable} fade-in`}>
+      <Component {...pageProps} />
+    </main>
+  );
 }
