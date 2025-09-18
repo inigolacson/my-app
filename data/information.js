@@ -111,8 +111,9 @@ const projectInfo = [
 const educationInfo = [
   {
     name: "polytechnic university of the philippines",
-    course: "bachelor of science in information technology",
-    date: "2021 - present",
+    course:
+      "bachelor of science in information technology - Magna Cum Laude - GWA: 1.26",
+    date: "2021 - 2025",
   },
   {
     name: "rizal national science high school",
