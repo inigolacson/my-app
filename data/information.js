@@ -67,7 +67,7 @@ const cookInfo = [
       "a collection of head-level, emotionally narrated videos that explore human introspection and storytelling.",
   },
   {
-    title: "salary meter app",
+    title: "afforda",
     description:
       "an app that calculates how many days of work are needed to afford specific items based on monthly wage input.",
   },
@@ -75,7 +75,7 @@ const cookInfo = [
 
 const experienceInfo = [
   {
-    company: "zynnapse corporation",
+    company: "zynappse corporation",
     description:
       "completed internship as a front end intern, gaining skills in front-end development and ui/ux design.",
     date: "february 2025 - may 2025",
